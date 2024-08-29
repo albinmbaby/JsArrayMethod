@@ -1,5 +1,5 @@
 let tasks=[]
-const add = ()=>{
+const addTask = ()=>{
     const addInput=document.getElementById("addInput")
     const task=addInput.value;
     
@@ -12,7 +12,7 @@ const add = ()=>{
     alert("Please enter a task")
  }
 }
-const remove = () =>{
+const removeTask = () =>{
   tasks.pop()
   displayTasks()
   
